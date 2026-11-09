@@ -46,7 +46,7 @@
 
 | Resource | Direct Link | Description |
 | :--- | :--- | :--- |
-| 🔴 **Live Doctor Website** | [**drvijaykumarbinwal.com**](https://drvijaykumarbinwal.com) *(also [drvijaybinwal.com](https://drvijaybinwal.com))* | Official production medical website & patient booking portal |
+| 🔴 **Live Doctor Website** | [**drvijaykumarbinwal.com**](https://drvijaykumarbinwal.com) | Official production medical website & patient booking portal |
 | 💼 **Agency Portfolio** | [**tapwebs.space**](https://tapwebs.space) | Interactive portfolio showcase of web platforms engineered by TAPWEBS |
 | 🏢 **Agency Homepage** | [**tapwebs.in**](https://tapwebs.in) | Digital agency solutions, enterprise web development & medical platforms |
 | 📍 **Clinic Location** | [Pinkcity Superspeciality Clinic (Jaipur)](https://maps.google.com/?q=Pinkcity+Superspeciality+Clinic+Mansarovar+Jaipur) | Prime clinical consultation center at Mansarovar, Jaipur, Rajasthan |
@@ -338,7 +338,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ### Connect with TAPWEBS
 - 🌐 **Agency Website**: [tapwebs.in](https://tapwebs.in)
 - 💼 **Portfolio Showcase**: [tapwebs.space](https://tapwebs.space)
-- 🩺 **Live Client Website**: [drvijaykumarbinwal.com](https://drvijaykumarbinwal.com) *(also [drvijaybinwal.com](https://drvijaybinwal.com))*
+- 🩺 **Live Client Website**: [drvijaykumarbinwal.com](https://drvijaykumarbinwal.com)
 - ✉️ **Inquiries & Consultations**: [hello@tapwebs.in](mailto:hello@tapwebs.in)
 - 🐙 **GitHub Organization**: [@tapwebs](https://github.com/tapwebs)
 
@@ -351,7 +351,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 > 
 > - **Agency Website**: [tapwebs.in](https://tapwebs.in)
 > - **Agency Portfolio**: [tapwebs.space](https://tapwebs.space)
-> - **Client Live Site**: [drvijaykumarbinwal.com](https://drvijaykumarbinwal.com) *(also [drvijaybinwal.com](https://drvijaybinwal.com))*
+> - **Client Live Site**: [drvijaykumarbinwal.com](https://drvijaykumarbinwal.com)
 
 This repository is published as a **Showcase & Architectural Portfolio**. 
 

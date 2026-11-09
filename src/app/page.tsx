@@ -4,7 +4,7 @@
  * ALL RIGHTS ARE OF TAPWEBS
  * 
  * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
- * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Client Website: https://drvijaykumarbinwal.com
  * Agency Website: https://tapwebs.in
  * Portfolio Showcase: https://tapwebs.space
  * =====================================================================
@@ -54,6 +54,11 @@ export const metadata: Metadata = {
     description:
       "Jaipur's trusted nephrologist Dr. Vijay Kumar Binwal offers expert kidney disease treatment, dialysis, transplant consultation and preventive care.",
     images: ['/images/og-image.jpg'],
+  },
+  other: {
+    developer: 'MADE BY TAPWEBS',
+    copyright: 'ALL RIGHTS ARE OF TAPWEBS',
+    notice: 'MADE BY TAPWEBS - ALL RIGHTS ARE OF TAPWEBS',
   },
 }
 

@@ -4,7 +4,7 @@
  * ALL RIGHTS ARE OF TAPWEBS
  * 
  * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
- * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Client Website: https://drvijaykumarbinwal.com
  * Agency Website: https://tapwebs.in
  * Portfolio Showcase: https://tapwebs.space
  * =====================================================================
@@ -115,6 +115,11 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
+  other: {
+    developer: 'MADE BY TAPWEBS',
+    copyright: 'ALL RIGHTS ARE OF TAPWEBS',
+    notice: 'MADE BY TAPWEBS - ALL RIGHTS ARE OF TAPWEBS',
+  },
 }
 
 // Sitewide entity graph — previously the only structured data was page-level
@@ -187,6 +192,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${figtree.variable} ${notoSansDevanagari.variable}`}
     >
       <head>
+        {/* MADE BY TAPWEBS — ALL RIGHTS ARE OF TAPWEBS */}
+        <meta name="author" content="MADE BY TAPWEBS" />
+        <meta name="creator" content="MADE BY TAPWEBS" />
+        <meta name="copyright" content="ALL RIGHTS ARE OF TAPWEBS" />
         {/* Preconnect to the only third-party origin we hit on first paint */}
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <script

@@ -4,7 +4,7 @@
  * ALL RIGHTS ARE OF TAPWEBS
  * 
  * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
- * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Client Website: https://drvijaykumarbinwal.com
  * Agency Website: https://tapwebs.in
  * Portfolio Showcase: https://tapwebs.space
  * =====================================================================
@@ -214,7 +214,7 @@ const hi: Dictionary = {
   'footer.location.tonkRoad': 'टोंक रोड',
   'footer.location.ajmer': 'अजमेर',
   'footer.contact': 'संपर्क',
-  'footer.allRights': 'सर्वाधिकार सुरक्षित।',
+  'footer.allRights': 'सर्वाधिकार सुरक्षित। MADE BY TAPWEBS — ALL RIGHTS ARE OF TAPWEBS',
   'footer.specialist': 'DM नेफ्रोलॉजी · जयपुर के किडनी विशेषज्ञ',
 
   // ── About Page
@@ -516,7 +516,7 @@ const en: Dictionary = {
   'footer.location.tonkRoad': 'Tonk Road',
   'footer.location.ajmer': 'Ajmer',
   'footer.contact': 'Contact',
-  'footer.allRights': 'All rights reserved.',
+  'footer.allRights': 'MADE BY TAPWEBS — ALL RIGHTS ARE OF TAPWEBS. All rights reserved.',
   'footer.specialist': 'DM Nephrology · Kidney Specialist Jaipur',
 
   // ── About Page

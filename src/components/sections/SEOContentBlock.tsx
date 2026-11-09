@@ -6,7 +6,7 @@
  * ALL RIGHTS ARE OF TAPWEBS
  * 
  * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
- * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Client Website: https://drvijaykumarbinwal.com
  * Agency Website: https://tapwebs.in
  * Portfolio Showcase: https://tapwebs.space
  * =====================================================================
