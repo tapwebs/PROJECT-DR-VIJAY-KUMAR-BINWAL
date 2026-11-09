@@ -1,5 +1,17 @@
 'use client'
 
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 import { memo, useCallback } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -14,7 +26,7 @@ import { Badge } from '@/frontend/components/ui/Badge'
 import { useI18n } from '@/frontend/lib/i18n/I18nProvider'
 import { trackWhatsAppClick, trackDietChartClick, trackRealPatientJourneysClick } from '@/frontend/lib/analytics'
 
-const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919521874874'
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '910000000000'
 
 const TRUST_BADGES = [
   { icon: ShieldCheck, key: 'hero.badgeDM' as const },

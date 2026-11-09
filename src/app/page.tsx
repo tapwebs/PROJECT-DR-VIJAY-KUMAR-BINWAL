@@ -1,3 +1,15 @@
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 import type { Metadata } from 'next'
 import { HeroSection } from '@/frontend/components/sections/HeroSection'
 import { TrustBar } from '@/frontend/components/sections/TrustBar'
@@ -53,7 +65,7 @@ const jsonLd = {
       '@id': 'https://drvijaykumarbinwal.com/#organization',
       name: 'Pinkcity Superspeciality Clinic',
       url: 'https://drvijaykumarbinwal.com',
-      telephone: '+91-9521874874',
+      telephone: `+${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '910000000000'}`,
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'S36, New Sanganer Road, Near Indian Oil Petrol Pump, Mansarovar Sector 6, Mansarovar',
@@ -88,7 +100,7 @@ const jsonLd = {
       '@id': 'https://drvijaykumarbinwal.com/#localbusiness',
       name: 'Pinkcity Superspeciality Clinic — Dr. Vijay Kumar Binwal',
       image: 'https://drvijaykumarbinwal.com/images/doctor-profile.jpg',
-      telephone: '+91-9521874874',
+      telephone: `+${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '910000000000'}`,
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'S36, New Sanganer Road, Near Indian Oil Petrol Pump, Mansarovar Sector 6, Mansarovar',

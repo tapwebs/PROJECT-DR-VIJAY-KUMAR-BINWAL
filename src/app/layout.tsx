@@ -1,3 +1,15 @@
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 import type { Metadata, Viewport } from 'next'
 import { Figtree, Noto_Sans_Devanagari } from 'next/font/google'
 import './globals.css'
@@ -57,8 +69,12 @@ export const metadata: Metadata = {
     'किडनी विशेषज्ञ जयपुर',
     'नेफ्रोलॉजिस्ट जयपुर',
   ],
-  authors: [{ name: 'Dr. Vijay Kumar Binwal' }],
-  creator: 'Dr. Vijay Kumar Binwal',
+  authors: [
+    { name: 'TAPWEBS', url: 'https://tapwebs.in' },
+    { name: 'Dr. Vijay Kumar Binwal', url: 'https://drvijaykumarbinwal.com' },
+  ],
+  creator: 'TAPWEBS (https://tapwebs.in | https://tapwebs.space)',
+  publisher: 'TAPWEBS & Dr. Vijay Kumar Binwal',
   metadataBase: new URL(SITE),
   alternates: {
     canonical: SITE,
@@ -117,7 +133,7 @@ const SITE_ENTITY_JSON_LD = {
       name: 'Pinkcity Superspeciality Clinic',
       url: SITE,
       logo: `${SITE}/images/dr-vijay-kumar-binwal-nephrologist-jaipur-logo.png`,
-      telephone: '+91-9521874874',
+      telephone: `+${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '910000000000'}`,
       address: {
         '@type': 'PostalAddress',
         streetAddress: 'S36, New Sanganer Road, Near Indian Oil Petrol Pump, Mansarovar Sector 6',

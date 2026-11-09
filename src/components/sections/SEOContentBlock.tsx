@@ -1,5 +1,17 @@
 'use client'
 
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 import { memo } from 'react'
 import Link from 'next/link'
 import { MapPin, ArrowRight } from 'lucide-react'

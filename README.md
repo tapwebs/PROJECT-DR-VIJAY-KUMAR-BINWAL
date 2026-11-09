@@ -4,10 +4,15 @@
   </a>
 </p>
 
+<p align="center">
+  <strong>MADE BY TAPWEBS &bull; ALL RIGHTS ARE OF TAPWEBS</strong>
+</p>
+
 <h1 align="center">Dr. Vijay Kumar Binwal — Medical Portal & Patient Platform</h1>
 
 <p align="center">
-  <strong>Production Healthcare Web Architecture &bull; Designed &amp; Engineered by <a href="https://tapwebs.in">TAPWEBS</a></strong>
+  <strong>MADE BY TAPWEBS &bull; ALL RIGHTS ARE OF TAPWEBS</strong><br />
+  Production Healthcare Web Architecture &bull; Designed &amp; Engineered by <a href="https://tapwebs.in">TAPWEBS</a>
 </p>
 
 <p align="center">
@@ -45,7 +50,7 @@
 | 💼 **Agency Portfolio** | [**tapwebs.space**](https://tapwebs.space) | Interactive portfolio showcase of web platforms engineered by TAPWEBS |
 | 🏢 **Agency Homepage** | [**tapwebs.in**](https://tapwebs.in) | Digital agency solutions, enterprise web development & medical platforms |
 | 📍 **Clinic Location** | [Pinkcity Superspeciality Clinic (Jaipur)](https://maps.google.com/?q=Pinkcity+Superspeciality+Clinic+Mansarovar+Jaipur) | Prime clinical consultation center at Mansarovar, Jaipur, Rajasthan |
-| 💬 **Patient Booking Hotline** | [Direct WhatsApp Line (+91 9521874874)](https://wa.me/919521874874) | Fast-track consultation booking & patient emergency triage line |
+| 💬 **Patient Booking Hotline** | Direct WhatsApp Line (configured via `NEXT_PUBLIC_WHATSAPP_NUMBER`) | Fast-track consultation booking & patient emergency triage line |
 
 ---
 
@@ -128,7 +133,7 @@ This repository is a **Public Architecture & Showcase Portfolio** published by [
 - Localized medical terminology ensures accessibility for elderly patients and rural families seeking top-tier nephrology care.
 
 ### 5. ⚡ Direct-to-Care 1-Click WhatsApp Booking
-- Deep-linked appointment scheduling routed directly to the clinic's dedicated reception desk (`+91 9521874874`), drastically reducing drop-offs compared to multi-step booking forms.
+- Deep-linked appointment scheduling routed directly to the clinic's dedicated reception desk (number set via `NEXT_PUBLIC_WHATSAPP_NUMBER`), drastically reducing drop-offs compared to multi-step booking forms.
 
 ---
 
@@ -138,7 +143,7 @@ This repository is a **Public Architecture & Showcase Portfolio** published by [
 flowchart TD
     subgraph ClientLayer["Client & Patient Entrypoint"]
         Patient["Patient Browser / Mobile Device"]
-        WhatsApp["Direct WhatsApp Line (+91-9521874874)"]
+        WhatsApp["Direct WhatsApp Line (configured via env)"]
     end
 
     subgraph EdgeLayer["Edge Delivery & Routing (Next.js 16)"]
@@ -184,7 +189,7 @@ The application injects structured JSON-LD graphs designed to maximize rich-snip
       "name": "Dr. Vijay Kumar Binwal",
       "medicalSpecialty": ["Nephrology", "Renal Transplantation"],
       "alumniOf": "SMS Medical College, Jaipur",
-      "telephone": "+91-9521874874",
+      "telephone": "+91-XXXXXXXXXX",
       "worksFor": {
         "@type": "MedicalClinic",
         "name": "Pinkcity Superspeciality Clinic",
@@ -339,10 +344,18 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-## 📄 License & Intellectual Property Notice
+## 📄 Ownership, License & Intellectual Property Notice
+
+> ### 🛡️ MADE BY TAPWEBS • ALL RIGHTS ARE OF TAPWEBS
+> **Co-Owners**: [TAPWEBS](https://tapwebs.in) & [Dr. Vijay Kumar Binwal](https://drvijaykumarbinwal.com)
+> 
+> - **Agency Website**: [tapwebs.in](https://tapwebs.in)
+> - **Agency Portfolio**: [tapwebs.space](https://tapwebs.space)
+> - **Client Live Site**: [drvijaykumarbinwal.com](https://drvijaykumarbinwal.com) *(also [drvijaybinwal.com](https://drvijaybinwal.com))*
 
 This repository is published as a **Showcase & Architectural Portfolio**. 
 
+- **MADE BY TAPWEBS. ALL RIGHTS ARE OF TAPWEBS.**
 - The codebase structure, architectural design, and demonstration components are copyright © 2024–2026 **TAPWEBS**.
 - The doctor's identity, clinic branding, patient imagery, and clinical materials are proprietary to **Dr. Vijay Kumar Binwal** and **TAPWEBS**.
 - For full licensing terms, please consult the [LICENSE](LICENSE) file.

@@ -1,5 +1,17 @@
 'use client'
 
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 import { memo, useCallback, useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -13,7 +25,7 @@ import {
   trackBookAppointmentClick,
 } from '@/frontend/lib/analytics'
 
-const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919521874874'
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '910000000000'
 
 // `navLinks` is built lazily inside the component so labels follow the
 // active locale; the structure (paths) never changes.

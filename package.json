@@ -1,18 +1,43 @@
 {
   "name": "dr-vijay-kumar-binwal-showcase",
   "version": "1.0.0",
-  "description": "Production Architecture Showcase & Case Study for Dr. Vijay Kumar Binwal (Nephrologist & Kidney Specialist, Jaipur) - Engineered by TAPWEBS",
+  "description": "MADE BY TAPWEBS. ALL RIGHTS ARE OF TAPWEBS. Production Architecture Showcase & Case Study for Dr. Vijay Kumar Binwal (Nephrologist & Kidney Specialist, Jaipur) - Designed & Engineered by TAPWEBS",
   "private": true,
   "homepage": "https://tapwebs.in",
+  "notice": "MADE BY TAPWEBS - ALL RIGHTS ARE OF TAPWEBS",
+  "copyright": "MADE BY TAPWEBS. ALL RIGHTS ARE OF TAPWEBS.",
   "author": {
     "name": "TAPWEBS",
-    "url": "https://tapwebs.in"
+    "url": "https://tapwebs.in",
+    "email": "hello@tapwebs.in"
   },
+  "owners": [
+    {
+      "name": "TAPWEBS",
+      "role": "Agency & Engineering Owner",
+      "url": "https://tapwebs.in",
+      "portfolio": "https://tapwebs.space"
+    },
+    {
+      "name": "Dr. Vijay Kumar Binwal",
+      "role": "Client & Medical Identity Owner",
+      "url": "https://drvijaykumarbinwal.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "TAPWEBS Agency Team",
+      "url": "https://tapwebs.space"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/tapwebs/PROJECT-DR-VIJAY-KUMAR-BINWAL"
   },
   "keywords": [
+    "made-by-tapwebs",
+    "tapwebs",
+    "dr-vijay-kumar-binwal",
     "nextjs16",
     "react19",
     "typescript",
@@ -20,7 +45,6 @@
     "sanity-cms",
     "healthcare-website",
     "medical-portal",
-    "tapwebs",
     "portfolio-showcase",
     "seo-optimization",
     "schema-org"
@@ -55,4 +79,3 @@
     "typescript": "^5"
   }
 }
-

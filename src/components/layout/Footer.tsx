@@ -1,3 +1,15 @@
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 'use client'
 
 import { memo } from 'react'
@@ -37,7 +49,7 @@ const locations = [
   { key: 'footer.location.ajmer', href: '/ajmer' },
 ] as const
 
-const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919521874874'
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '910000000000'
 
 function FooterComponent() {
   const t = useT()
@@ -47,7 +59,7 @@ function FooterComponent() {
       {/* Schema-ready contact markup (visually hidden) */}
       <div itemScope itemType="https://schema.org/MedicalOrganization" className="hidden">
         <span itemProp="name">Dr. Vijay Kumar Binwal</span>
-        <span itemProp="telephone">+91-9521874874</span>
+        <span itemProp="telephone">{`+${WHATSAPP_NUMBER}`}</span>
         <div itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
           <span itemProp="streetAddress">
             S36, New Sanganer Road, Near Indian Oil Petrol Pump, Mansarovar Sector 6, Mansarovar
@@ -170,10 +182,10 @@ function FooterComponent() {
               <div className="flex items-center gap-2.5">
                 <Phone size={16} className="text-[#0EA5E9] shrink-0" aria-hidden="true" />
                 <a
-                  href="tel:+919521874874"
+                  href={`tel:+${WHATSAPP_NUMBER}`}
                   className="text-[#BAE6FD] hover:text-white text-sm transition-colors duration-200 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded"
                 >
-                  +91 9521874874
+                  {`+${WHATSAPP_NUMBER}`}
                 </a>
               </div>
               <div className="flex items-start gap-2.5">
@@ -190,22 +202,26 @@ function FooterComponent() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-10 pt-6 border-t border-[#1E6A9A] flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-[#7DD3FC]">
-          <p>
-            &copy; {new Date().getFullYear()} {t('brand.name')}. {t('footer.allRights')}
-          </p>
-          <p className="text-center">
-            Designed &amp; Developed by{" "}
-            <a
-              href="https://tapwebs.in"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#BAE6FD] hover:text-white hover:underline transition-colors duration-200"
-            >
-              TAPWEBS
-            </a>
-          </p>
-          <p>{t('footer.specialist')}</p>
+        <div className="mt-10 pt-6 border-t border-[#1E6A9A] flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#7DD3FC]">
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <p>
+              &copy; {new Date().getFullYear()} <strong className="text-white">Dr. Vijay Kumar Binwal</strong> &amp; <a href="https://tapwebs.in" target="_blank" rel="noopener noreferrer" className="text-white underline font-semibold hover:text-[#BAE6FD]">TAPWEBS</a>.
+            </p>
+            <p className="text-[11px] text-[#38BDF8]">
+              Co-Owners: <a href="https://drvijaykumarbinwal.com" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">Dr. Vijay Kumar Binwal</a> &bull; <a href="https://tapwebs.in" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">TAPWEBS</a>
+            </p>
+          </div>
+
+          <div className="text-center bg-[#075985]/60 px-4 py-2 rounded-lg border border-[#0284C7]/40 shadow-sm">
+            <p className="font-semibold text-white">
+              MADE BY <a href="https://tapwebs.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#BAE6FD]">TAPWEBS</a> &bull; ALL RIGHTS ARE OF TAPWEBS
+            </p>
+            <p className="text-[11px] text-[#BAE6FD] mt-0.5">
+              Explore Portfolio: <a href="https://tapwebs.space" target="_blank" rel="noopener noreferrer" className="underline hover:text-white font-medium">tapwebs.space</a> &bull; Agency: <a href="https://tapwebs.in" target="_blank" rel="noopener noreferrer" className="underline hover:text-white font-medium">tapwebs.in</a>
+            </p>
+          </div>
+
+          <p className="text-right">{t('footer.specialist')}</p>
         </div>
       </div>
     </footer>

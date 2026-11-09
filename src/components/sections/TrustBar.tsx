@@ -1,5 +1,17 @@
 'use client'
 
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 import { memo, useEffect, useRef, useState } from 'react'
 import { Users, Calendar, Stethoscope, TrendingUp } from 'lucide-react'
 import { useT } from '@/frontend/lib/i18n/I18nProvider'

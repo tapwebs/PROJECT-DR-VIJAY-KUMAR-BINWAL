@@ -1,11 +1,23 @@
 'use client'
 
+/**
+ * =====================================================================
+ * MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+ * ALL RIGHTS ARE OF TAPWEBS
+ * 
+ * Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+ * Client Website: https://drvijaykumarbinwal.com (also https://drvijaybinwal.com)
+ * Agency Website: https://tapwebs.in
+ * Portfolio Showcase: https://tapwebs.space
+ * =====================================================================
+ */
+
 import { memo, useCallback } from 'react'
 import Link from 'next/link'
 import { MessageCircle, Phone, MapPin, Clock } from 'lucide-react'
 import { useI18n } from '@/frontend/lib/i18n/I18nProvider'
 
-const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919521874874'
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '910000000000'
 
 function ContactCTASectionComponent() {
   const { t, locale } = useI18n()
@@ -61,10 +73,10 @@ function ContactCTASectionComponent() {
               <div>
                 <p className="text-[#475569] text-sm mb-1">{t('cta.phone')}</p>
                 <a
-                  href="tel:+919521874874"
+                  href={`tel:+${WHATSAPP_NUMBER}`}
                   className="text-[#0C4A6E] font-heading font-600 text-lg hover:text-[#0369A1] transition-colors cursor-pointer"
                 >
-                  +91 9521874874
+                  {`+${WHATSAPP_NUMBER}`}
                 </a>
               </div>
             </div>
