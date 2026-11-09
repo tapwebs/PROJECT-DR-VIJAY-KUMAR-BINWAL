@@ -1,0 +1,55 @@
+# =====================================================================
+# MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+# ALL RIGHTS ARE OF TAPWEBS
+# 
+# Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+# Client Website: https://drvijaykumarbinwal.com
+# Agency Website: https://tapwebs.in
+# Portfolio Showcase: https://tapwebs.space
+# =====================================================================
+
+name: '💼 Commercial Project Inquiry (TAPWEBS)'
+description: 'Request a custom healthcare portal, medical web application, or enterprise digital platform engineered by TAPWEBS.'
+title: '[Inquiry]: Custom Healthcare Platform Request'
+labels: ['client-inquiry', 'tapwebs']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🚀 Partner with TAPWEBS
+        Thank you for your interest in **TAPWEBS**. We engineer custom, high-speed medical websites, HIPAA/clinic-ready patient portals, and scalable Next.js platforms.
+        
+        *You can also email us directly at [hello@tapwebs.in](mailto:hello@tapwebs.in) or visit [tapwebs.in](https://tapwebs.in).*
+  - type: input
+    id: contact_name
+    attributes:
+      label: Your Name / Organization
+      placeholder: Dr. John Doe / City Super Speciality Hospital
+    validations:
+      required: true
+  - type: input
+    id: contact_email
+    attributes:
+      label: Official Email Address or WhatsApp Phone
+      placeholder: name@clinic.com or +91 9876543210
+    validations:
+      required: true
+  - type: dropdown
+    id: project_scope
+    attributes:
+      label: Project Requirements
+      options:
+        - Doctor / Hospital Brand Portal (Next.js 16 + Sanity CMS)
+        - Patient Appointment & WhatsApp Consultation Engine
+        - Custom Web Application / SaaS Platform
+        - Medical SEO & Local Google Knowledge Panel Optimization
+        - Complete Turn-Key Architecture & Hosting
+    validations:
+      required: true
+  - type: textarea
+    id: project_overview
+    attributes:
+      label: Project Goals & Timeline
+      placeholder: Describe the clinical specialties, target launch timeline, and existing website (if any).
+    validations:
+      required: true

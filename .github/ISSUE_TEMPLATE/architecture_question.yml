@@ -1,0 +1,34 @@
+# =====================================================================
+# MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+# ALL RIGHTS ARE OF TAPWEBS
+# 
+# Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+# Client Website: https://drvijaykumarbinwal.com
+# Agency Website: https://tapwebs.in
+# Portfolio Showcase: https://tapwebs.space
+# =====================================================================
+
+name: '💬 Architecture & Tech Stack Question'
+description: 'Ask questions regarding the Next.js 16, Sanity CMS v3, Docker, or SEO architecture demonstrated in this showcase.'
+title: '[Architecture]: '
+labels: ['architecture', 'question']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🔍 Technical Architecture Discussion
+        This repository serves as a public architectural showcase engineered by **[TAPWEBS](https://tapwebs.in)**.
+  - type: input
+    id: topic
+    attributes:
+      label: Technical Area
+      placeholder: Next.js 16 App Router / Sanity CMS Schemas / Schema.org JSON-LD / Core Web Vitals
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question / Discussion Topic
+      placeholder: Describe your query or architectural observation in detail.
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+# =====================================================================
+# MADE BY TAPWEBS (https://tapwebs.in | https://tapwebs.space)
+# ALL RIGHTS ARE OF TAPWEBS
+# 
+# Co-Owners: TAPWEBS & Dr. Vijay Kumar Binwal
+# Client Website: https://drvijaykumarbinwal.com
+# Agency Website: https://tapwebs.in
+# Portfolio Showcase: https://tapwebs.space
+# =====================================================================
+
+blank_issues_enabled: false
+contact_links:
+  - name: 🌐 TAPWEBS Agency Homepage
+    url: https://tapwebs.in
+    about: Explore official digital solutions, web design, and medical platforms.
+  - name: 💼 TAPWEBS Portfolio Showcase
+    url: https://tapwebs.space
+    about: Browse production web engineering case studies and live client portals.
+  - name: ✉️ Direct Client Consultation Email
+    url: mailto:hello@tapwebs.in
+    about: Speak directly with our engineering team for custom web projects.

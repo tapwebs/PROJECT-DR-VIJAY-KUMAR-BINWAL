@@ -4,15 +4,11 @@
   </a>
 </p>
 
-<p align="center">
-  <strong>MADE BY TAPWEBS &bull; ALL RIGHTS ARE OF TAPWEBS</strong>
-</p>
-
-<h1 align="center">Dr. Vijay Kumar Binwal — Medical Portal & Patient Platform</h1>
+<h1 align="center">Dr. Vijay Kumar Binwal — Medical Portal &amp; Patient Platform</h1>
 
 <p align="center">
   <strong>MADE BY TAPWEBS &bull; ALL RIGHTS ARE OF TAPWEBS</strong><br />
-  Production Healthcare Web Architecture &bull; Designed &amp; Engineered by <a href="https://tapwebs.in">TAPWEBS</a>
+  Production Healthcare Web Architecture &bull; Designed &amp; Engineered by <a href="https://tapwebs.in"><strong>TAPWEBS</strong></a>
 </p>
 
 <p align="center">
@@ -24,6 +20,9 @@
   </a>
   <a href="https://tapwebs.in" target="_blank">
     <img src="https://img.shields.io/badge/Agency-tapwebs.in-0284C7?style=for-the-badge&logo=google&logoColor=white" alt="Agency Website" />
+  </a>
+  <a href="https://github.com/tapwebs/PROJECT-DR-VIJAY-KUMAR-BINWAL/releases/latest">
+    <img src="https://img.shields.io/badge/Release-v1.0.0-emerald?style=for-the-badge&logo=github" alt="Latest Release" />
   </a>
   <img src="https://img.shields.io/badge/Status-Production_Live-success?style=for-the-badge" alt="Production Live" />
   <img src="https://img.shields.io/badge/License-Showcase_Only-orange?style=for-the-badge" alt="Showcase License" />
@@ -39,6 +38,21 @@
   <img src="https://img.shields.io/badge/SEO-Schema.org_JSON--LD-F59E0B?style=flat-square" alt="Schema.org" />
   <img src="https://img.shields.io/badge/i18n-English_%7C_%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-8B5CF6?style=flat-square" alt="Bilingual Support" />
 </p>
+
+---
+
+## 📑 Table of Contents
+
+- [🌐 Quick Access & Live Resources](#-quick-access--live-resources)
+- [⚡ Performance & Core Web Vitals](#-performance--core-web-vitals-benchmark)
+- [📸 Visual Showcase & Client Highlights](#-visual-showcase--client-highlights)
+- [📌 Executive Summary & Case Study](#-executive-summary--case-study)
+- [🩺 Core Medical Modules & Patient Journey](#-core-medical-modules--patient-journey)
+- [🏗️ System Architecture & Data Flow](#-system-architecture--data-flow)
+- [🔍 Semantic SEO & Schema.org Graph](#-semantic-seo--schemaorg-knowledge-graph)
+- [🚀 Local Development & Docker](#-local-development--docker-deployment)
+- [🏢 About the Developer — TAPWEBS](#-about-the-developer--tapwebs)
+- [📄 Ownership, License & Intellectual Property Notice](#-ownership-license--intellectual-property-notice)
 
 ---
 
