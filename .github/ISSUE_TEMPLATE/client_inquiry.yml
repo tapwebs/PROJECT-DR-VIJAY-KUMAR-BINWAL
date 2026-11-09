@@ -53,3 +53,4 @@ body:
       placeholder: Describe the clinical specialties, target launch timeline, and existing website (if any).
     validations:
       required: true
+

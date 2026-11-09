@@ -23,3 +23,4 @@ Portfolio Showcase: https://tapwebs.space
 - [ ] TypeScript types compile without errors (`tsc --noEmit`).
 - [ ] Schema.org JSON-LD validator returns zero syntax errors.
 - [ ] Bilingual translations (EN/HI) verified in `dictionaries.ts`.
+

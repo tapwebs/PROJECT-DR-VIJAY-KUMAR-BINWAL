@@ -32,3 +32,4 @@ body:
       placeholder: Describe your query or architectural observation in detail.
     validations:
       required: true
+
