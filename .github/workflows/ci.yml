@@ -25,3 +25,4 @@ jobs:
           test -d src/components
           test -d cms-schemas
           echo "Showcase verification successful!"
+

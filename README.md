@@ -262,3 +262,4 @@ This repository is published as a **Showcase & Architectural Portfolio**.
 - The codebase structure, architectural design, and demonstration components are copyright © 2024–2026 **TAPWEBS**.
 - The doctor's identity, clinic branding, patient imagery, and clinical materials are proprietary to **Dr. Vijay Kumar Binwal** and **TAPWEBS**.
 - For full licensing terms, please consult the [LICENSE](LICENSE) file.
+
